@@ -1,0 +1,6 @@
+1. Git Tag represent state of Branch at a particular point. Visualize it as a snapshot of a branch at any point whereas Branch is a different thread which can run alongside other branches.
+2. tag is to mark a version of a branch. Generally in industrial deployments every build which is deploying is tagged to record the version.
+3. tags are stored in refs/tags/ whereas Branch in refs/heads/
+4. remote branches in refs/remotes/<name_remote>
+
+
