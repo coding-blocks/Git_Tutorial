@@ -1,0 +1,11 @@
+1. create a tag
+$ git tag -a v1.0 -m "dev build 11.12.2019" # Annoted tag : a is annotation and m denotes the message along with
+$ git tag v2.1.0
+
+2. push tag
+$git push origin --tags # multiple tags
+$git push origin <tag> # specific tag
+
+3. list all tags
+$git tag
+
