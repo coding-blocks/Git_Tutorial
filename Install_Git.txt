@@ -1,0 +1,19 @@
+Install Git for Windows : 
+1)	First go onto the below link to install Git for Windows installer.
+Link -> https://gitforwindows.org
+2)	When you've successfully started the installer, you should see the Git Setup wizard screen. Follow the Next and Finish prompts to complete the installation. The default options are pretty sensible for most users.
+3)	Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt) to check if git is installed or not.
+
+Install Git for Ubuntu : 
+1)	Install Git
+apt-get install git-core
+You may be asked to confirm the download and installation; simply enter y to confirm. It’s that simple, Git should be installed and ready to use!
+2)	Confirm Git the installation
+With the main installation done, first check to ensure the executable file is set up and accessible. The best way to do this is simply to run Git with the version command.
+git --version
+3)	Configure Git’s settings (for the root user)
+It’s a good idea to setup your user for git now, to prevent any commit errors later. We’ll setup the user testuser with the e-mail address testuser@example.com.
+git config --global user.name "testuser"
+git config --global user.email "testuser@example.com"
+
+
