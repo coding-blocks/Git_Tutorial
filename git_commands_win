@@ -1,0 +1,50 @@
+1)	Git Init : 
+git init will create a new local Git repository.
+	git init
+2)	Git Clone : 
+git clone is used to copy a repository. If the repository lies on a remote server, use:
+	git clone username@host:/path/to/repository
+
+3)	Git add
+git add is used to add files to the staging area. For example, the basic Git following command will index the temp.txt file:
+	git add <temp.txt>
+
+4)	Git Commit : 
+git commit will create a snapshot of the changes and save it to the git directory.
+	git commit –m “Message to go with the commit here”
+
+5)	Git config : 
+git config can be used to set user-specific configuration values like email, username, file format, and so on. To illustrate, the command for setting up an email will look like this:
+	git config --global user.email youremail@example.com
+
+6)	Git status : 
+git status displays the list of changed files together with the files that are yet to be staged or committed.
+	git status
+
+7)	Git Push :
+git push is used to send local commits to the master branch of the remote repository. Here’s the basic code structure:
+	git push origin <master>
+
+8)	Git checkout:
+git checkout creates branches and helps you to navigate between them. For example, the following basic Git command creates a new branch and automatically switches you to it:
+	command git checkout -b <branch-name>
+
+9)	Git pull : 
+git pull merges all the changes present in the remote repository to the local working directory.
+	git pull
+
+10)	Git diff : 
+git diff lists down conflicts. In order to view conflicts against the base file, use
+	git diff --base <file-name>
+
+11)	Git reset : 
+git reset command will reset the index and the working directory to the last commit’s state.
+	git reset --hard HEAD
+
+12)	Git rm :
+git rm can be used to remove files from the index and the working directory.
+	git rm filename.txt
+
+
+
+
